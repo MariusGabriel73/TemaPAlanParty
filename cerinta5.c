@@ -177,6 +177,7 @@ void cerinta5(FILE *r, Node *last)
         current = current->next;
     }
     displayLevel(root, r);
+    free(root);
 }
 
 
